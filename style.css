@@ -31,3 +31,54 @@ body {
   text-transform: 0.2em;
   word-spacing: 1em;
 }
+
+.categories h1 {
+  text-align: center;
+}
+
+.categories {
+  border: 5px solid rgb(96, 2, 2);
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: square;
+  margin-left: 20px;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: 10px rgb(7, 77, 240);
+  list-style-image: url('../images/cliffs.jpg');
+}
+
+.form1 {
+  padding: 20px;
+}
+
+.form1 .form-group {
+  padding-bottom: 15px;
+}
+
+.form1 label {
+  display: block;
+}
+
+form1 input[type='text'],
+.form1 textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.form1 input[type='submit'] {
+  padding: 8px;
+  width: 100%;
+  background-color: rgb(7, 77, 240);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
